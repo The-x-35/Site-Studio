@@ -94,7 +94,7 @@ const page = async ({ params }: Props) => {
               ? currentPlanDetails?.description || 'Lets get started'
               : 'Lets get started! Pick a plan that works best for you.'
           }
-          duration="/ month"
+          duration="/month"
           features={
             agencySubscription?.Subscription?.active === true
               ? currentPlanDetails?.features || []
@@ -124,7 +124,7 @@ const page = async ({ params }: Props) => {
             }
             buttonCta="Subscribe"
             description="Dedicated support line & teams channel for support"
-            duration="/ month"
+            duration="/month"
             features={[]}
             title={'24/7 priority support'}
             highlightTitle="Get support now!"

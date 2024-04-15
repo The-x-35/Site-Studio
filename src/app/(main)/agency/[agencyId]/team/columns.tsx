@@ -222,7 +222,7 @@ const CellActions: React.FC<CellActionsProps> = ({ rowData }) => {
       <AlertDialogContent>
         <AlertDialogHeader>
           <AlertDialogTitle className="text-left">
-            Are you absolutely sure?
+            Are you sure?
           </AlertDialogTitle>
           <AlertDialogDescription className="text-left">
             This action cannot be undone. This will permanently delete the user
