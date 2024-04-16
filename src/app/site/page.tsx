@@ -26,7 +26,7 @@ export default async function Home() {
 
         <div className="absolute bottom-0 left-0 right-0 top-0 bg-[linear-gradient(to_right,#161616_1px,transparent_1px),linear-gradient(to_bottom,#161616_1px,transparent_1px)] bg-[size:4rem_4rem] [mask-image:radial-gradient(ellipse_60%_50%_at_50%_0%,#000_70%,transparent_110%)] -z-10" />
 
-        <p className="text-center">Run your agency, in one place</p>
+        <p className="text-center">Run your agency in one place with stunning web builder</p>
         <div className="bg-gradient-to-r from-primary to-secondary-foreground text-transparent bg-clip-text relative">
           <h1 className="text-7xl font-bold text-center md:text-[200px]">
             SiteStudio
@@ -75,7 +75,7 @@ export default async function Home() {
               </CardHeader>
               <CardContent>
                 <span className="text-4xl font-bold">
-                  {card.unit_amount && card.unit_amount / 100}
+                ₹{card.unit_amount && card.unit_amount / 100}
                 </span>
                 <span className="text-muted-foreground">
                   <span>/m</span>
@@ -122,8 +122,8 @@ export default async function Home() {
               <CardDescription>{pricingCards[0].description}</CardDescription>
             </CardHeader>
             <CardContent>
-              <span className="text-4xl font-bold">$0</span>
-              <span>/ month</span>
+              <span className="text-4xl font-bold">₹0</span>
+              <span className="text-muted-foreground">/m</span>
             </CardContent>
             <CardFooter className="flex flex-col  items-start gap-4 ">
               <div>
